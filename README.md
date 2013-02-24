@@ -58,11 +58,11 @@ Now that we are receiving a readable data stream from the Nunchuck through the A
 
 Download the **NunchuckyTest** folder and place it in your Processing sketchbook folder.  
 
-Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckyTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.
+Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckyTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
 ![Nunchucky Test Window](https://dl.dropbox.com/u/29093681/nunchuckyTestsnap.png)
 
-In order to move the box using the Nunchucks accelerometers be sure to hold down the the Z trigger button on the controller.  This acts like a safety catch to stop the box from rotating like crazy as soon as you start the sketch.  If you are having difficulties getting the Nunchuck to work with the sketch check out the Issues list which highlights some potential problems.
+In order to move the box using the Nunchucks accelerometers be sure to hold down the the Z trigger button on the controller.  This acts like a safety catch to stop the box from rotating like crazy as soon as you start the sketch.  If you are having difficulties getting the Nunchuck to work with the sketch check out the [Issues] list which highlights some potential problems.
 
-You are now ready to use your Nunchuck in any of your processing projects.  The code in NunchuckyTest.pde has been made as simple and readable as possible so that you can take what you need and apply it to any sketch.  If you are intending to use the Nunchuck with SCRAPE please go to https://github.com/c-flynn/SCRAPE for full details.     
+You are now ready to use your Nunchuck in any of your Processing projects.  The code in NunchuckyTest.pde has been made as simple and readable as possible so that you can take what you need and apply it to any sketch.  If you are intending to use the Nunchuck with SCRAPE please go to https://github.com/c-flynn/SCRAPE for full details.     
 
  
