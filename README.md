@@ -40,14 +40,14 @@ Step 4
 ======
 Connect the Arduino to your computer via a USB printer cable and launch the Arduino software.  
 
-Now we need to upload some code on to the Arduino board which will be able to read the data from the Nunchuck controller and pass it back in a readable format to your computer.  Code to do this is available from the [pragmatic programmers website](http://pragprog.com/titles/msard/source_code) as part of the excellent book [Arduino: A Quick Start Guide](http://pragprog.com/book/msard/arduino).  Download and unzip the file and go to Arduino_1_0 -> MotionSensor -> NunchuckDemo. Copy the files to your Arduino sketchbook path and upload the code on to your Arduino board.  Using Arduino's serial monitor you should now be able to see a stream of data displayed in 7 separate columns which will change as you interact with your Nunchuck.
+Now we need to upload some code on to the Arduino board which will be able to read the data from the Nunchuck controller and pass it back in a readable format to your computer.  Code to do this is available from the [pragmatic programmers website](http://pragprog.com/titles/msard/source_code) as part of the excellent book [Arduino: A Quick Start Guide](http://pragprog.com/book/msard/arduino).  Download and unzip the file and go to _Arduino_1_0 -> MotionSensor -> NunchuckDemo_. Copy the files to your Arduino sketchbook path and upload the code on to your Arduino board.  Using Arduino's serial monitor you should now be able to see a stream of data displayed in 7 separate columns which will change as you interact with your Nunchuck.
 
-It should look something like this:
-45 150 400 350 600 1 0
-47 155 410 357 611 1 0
-49 161 417 361 617 0 1
-.  .   .   .   .   . .
-.  .   .   .   .   . .     
+It should look something like this:  
+    45 150 400 350 600 1 0  
+    47 155 410 357 611 1 0  
+    49 161 417 361 617 0 1  
+    .  .   .   .   .   . .  
+    .  .   .   .   .   . .       
 
 Alternative but similar code is also available from: https://github.com/todbot/wiichuck_adapter.  This has not been tested as part of this project so some modifications may be required.
 
