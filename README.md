@@ -64,7 +64,7 @@ Download the **NunchuckooTest** folder and place it in your Processing sketchboo
 
 Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckooTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
 
-![Nunchuckoo Test Window](https://dl.dropbox.com/u/29093681/nunchuckooTestsnap.png)
+![Nunchuckoo Test Window](https://dl.dropbox.com/u/29093681/nunchuckoo.png)
 
 In order to move the box using the Nunchucks accelerometers be sure to hold down the the Z trigger button on the controller.  This acts like a safety catch to stop the box from rotating like crazy as soon as you start the sketch.  If you are having difficulties getting the Nunchuck to work with the sketch check out the [Issues](https://github.com/c-flynn/Nunchuckoo/issues) list which highlights some potential problems.
 
