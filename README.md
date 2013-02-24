@@ -62,7 +62,7 @@ Now that we are receiving a readable data stream from the Nunchuck through the A
 
 Download the **NunchuckooTest** folder and place it in your Processing sketchbook folder.  
 
-Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckooTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
+Ensure your Nunchuck and Arduino are connected, Launch Processing and open the NunchuckooTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
 
 ![Nunchuckoo Test Window](https://dl.dropbox.com/u/29093681/nunchuckoo.png)
 
