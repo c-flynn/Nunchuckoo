@@ -1,11 +1,11 @@
-Nunchucky
-=========
+Nunchuckoo
+==========
 
 Adapt a Wii Nunchuck to work with Arduino and Processing
 
-![Nunchucky](https://dl.dropbox.com/u/29093681/Nunchucky.jpg)
+![Nunchuckoo](https://dl.dropbox.com/u/29093681/Nunchuckoo.jpg)
 
-Click [here](http://www.youtube.com/watch?v=Wz4LDeIwH18) to see Nunchucky in action
+Click [here](http://www.youtube.com/watch?v=Wz4LDeIwH18) to see Nunchuckoo in action
 
 The following instructions demonstrate how to get a Wii Nunchuck working with a Processing sketch (see http://processing.org for more info on Processing).  The code repository also contains a basic sketch in order to test the Nunchuck and to demonstrate how the different Nunchuck controls can work within a sketch.
 
@@ -56,10 +56,10 @@ Step 5
 ======
 Now that we are receiving a readable data stream from the Nunchuck through the Arduino and onto a computer, the next step is to test it.  At this point we know we are receiving the data and in the correct format so we can close the Arduino software if it is still open.  
 
-Download the **NunchuckyTest** folder and place it in your Processing sketchbook folder.  
+Download the **NunchuckooTest** folder and place it in your Processing sketchbook folder.  
 
-Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckyTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
-![Nunchucky Test Window](https://dl.dropbox.com/u/29093681/nunchuckyTestsnap.png)
+Ensure your Nunchuck and Arduino are connected, Launch processing and open the NunchuckooTest sketch.  This will open a small window which displays a grey box in the centre of the window on a black background.  All going well you should be able to rotate the box in different directions with your Nunchuck.  
+![Nunchuckoo Test Window](https://dl.dropbox.com/u/29093681/nunchuckooTestsnap.png)
 
 In order to move the box using the Nunchucks accelerometers be sure to hold down the the Z trigger button on the controller.  This acts like a safety catch to stop the box from rotating like crazy as soon as you start the sketch.  If you are having difficulties getting the Nunchuck to work with the sketch check out the [Issues] list which highlights some potential problems.
 
