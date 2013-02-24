@@ -5,7 +5,9 @@ Adapt a Wii Nunchuck to work with Arduino and Processing
 
 ![Nunchuckoo](https://dl.dropbox.com/u/29093681/Nunchuckoo.jpg)
 
-Click [here](http://www.youtube.com/watch?v=Wz4LDeIwH18) to see Nunchuckoo in action
+Click the image below to see Nunchuckoo in action:
+
+[ ![Image](https://dl.dropbox.com/u/29093681/SCRAPE-in-a-CAVE.jpg "SCRAPE in a CAVE") ](https://www.youtube.com/watch?v=Wz4LDeIwH18 "SCRAPE In A CAVE")
 
 The following instructions demonstrate how to get a Wii Nunchuck working with a Processing sketch (see http://processing.org for more info on Processing).  The code repository also contains a basic sketch in order to test the Nunchuck and to demonstrate how the different Nunchuck controls can work within a sketch.
 
