@@ -70,4 +70,6 @@ In order to move the box using the Nunchucks accelerometers be sure to hold down
 
 You are now ready to use your Nunchuck in any of your Processing projects.  The code in NunchuckooTest.pde has been made as simple and readable as possible so that you can take what you need and apply it to any sketch.  If you are intending to use the Nunchuck with SCRAPE please go to https://github.com/c-flynn/SCRAPE for full details.     
 
- 
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/44b486cbe04492774be8ae1864edf506 "githalytics.com")](http://githalytics.com/c-flynn/Nunchuckoo)
