@@ -21,7 +21,7 @@ void setup(){
     else{  
       println("NOTICE: serial list is : ");
       println(ports);
-      println("If your nunchuck and arduino are plugged in and not working, go to https://github.com/c-flynn/Nunchucky/issues for more help");
+      println("If your nunchuck and arduino are plugged in and not working, go to https://github.com/c-flynn/Nunchuckoo/issues for more help");
       // The printed serial list you should be able to determine which port your nunchuck is plugged into
       // This will help you determine which array index number needs to be used for serial.list()array below
       arduinoPort = new Serial(this, Serial.list()[0], BAUD_RATE);
@@ -30,7 +30,7 @@ void setup(){
   }
   catch(Exception e){
     println(e);
-    println("NOTICE: Could not run nunchucky! Ensure that your wii nunchuck and arduino are connected correctly" + '\n');
+    println("NOTICE: Could not run nunchuckoo! Ensure that your wii nunchuck and arduino are connected correctly" + '\n');
   }    
 }
 
